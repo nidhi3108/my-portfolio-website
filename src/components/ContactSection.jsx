@@ -56,10 +56,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-left"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:nidhivr310@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    nidhivr310@gmail.com
                   </a>
                 </div>
               </div>
@@ -70,10 +70,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-left"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+8604248001"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                   8604248001
                   </a>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-left"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                   Noida Uttar Pradesh
                   </a>
                 </div>
               </div>
@@ -93,10 +93,10 @@ export const ContactSection = () => {
             <div className="pt-8 flex flex-col text-left">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 ">
-                <a href="#" target="_blank">
+                <a href="www.linkedin.com/in/nidhi3108" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                {/* <a href="#" target="_blank">
                   <Twitter />
                 </a>
                 <a href="#" target="_blank">
@@ -104,7 +104,7 @@ export const ContactSection = () => {
                 </a>
                 <a href="#" target="_blank">
                   <Twitch />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
