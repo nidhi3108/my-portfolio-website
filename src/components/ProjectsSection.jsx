@@ -2,6 +2,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    id: 2,
+    title: "Resume Builder",
+    description:
+      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    image: "/projects/resume-builder.jpeg",
+    tags: ["React", "Javascript", "Css","Html"],
+    demoUrl: "https://reactresumebuilder.netlify.app/",
+    githubUrl: "https://github.com/nidhi3108/Main_Resume_Builder",
+  },
+  {
     id: 1,
     title: "Learning Management System",
     description: "A beautiful landing page app using React and Tailwind.",
@@ -10,16 +20,7 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/nidhi3108/lms",
   },
-  {
-    id: 2,
-    title: "Resume Builder",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/resume-builder.jpeg",
-    tags: ["React", "Javascript", "Css"],
-    demoUrl: "reactresumebuilder.netlify.app",
-    githubUrl: "https://github.com/nidhi3108/Main_Resume_Builder",
-  },
+
   {
     id: 3,
     title: "Todo App",
@@ -76,7 +77,7 @@ export const ProjectsSection = () => {
                   ))}
                 </div> */}
 
-                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
+                <h3 className="text-xl font-semibold mb-1 mt-3"> {project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
