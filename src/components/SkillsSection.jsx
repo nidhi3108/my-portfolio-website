@@ -4,17 +4,17 @@ import { cn } from "@/lib/utils";
 const skills = [
   // Frontend
   { name: "HTML/CSS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 80, category: "frontend" },
-  { name: "TypeScript", level: 75, category: "frontend" },
-  { name: "Tailwind CSS", level: 80, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  { name: "JavaScript", level: 80, category: "frontend" },
+  { name: "React", level: 75, category: "frontend" },
+  { name: "TypeScript", level: 70, category: "frontend" },
+  { name: "Tailwind CSS", level: 75, category: "frontend" },
+  { name: "Next.js", level: 75, category: "frontend" },
   { name: "Material-UI", level: 80, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 60, category: "backend" },
-  { name: "Express", level: 60, category: "backend" },
-  { name: "MongoDB", level: 60, category: "backend" },
+  { name: "Node.js", level: 40, category: "backend" },
+  { name: "Express", level: 30, category: "backend" },
+  { name: "MongoDB", level: 30, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 75, category: "tools" },
